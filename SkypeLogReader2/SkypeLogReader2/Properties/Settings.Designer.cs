@@ -26,8 +26,7 @@ namespace SkypeLogReader2.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("data source=D:\\dev\\github\\SkypeLogReader2\\SkypeLogReader2\\SkypeLogReader2\\main.db" +
-            "")]
+        [global::System.Configuration.DefaultSettingValueAttribute("data source=.\\main.db")]
         public string skypeDBlocation {
             get {
                 return ((string)(this["skypeDBlocation"]));
